@@ -21,7 +21,7 @@ Para apoiar nesse sistema recebemos a tarefa de realizar essa modelagem e respon
 
 Vamos tentar pensar em 2 registros para cada entidade para checar o preenchimento das informações no nosso modelo.4
 
-## O que devo entregar? 
+## 📋 O que devo entregar? 
 
 A entrega deve ser realizada em um repositório do Github com um print do modelo proposto e um arquivo README respondendo as perguntas anteriores e apontando para os detalhes da modelagem proposta.
 

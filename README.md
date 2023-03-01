@@ -25,7 +25,7 @@ Vamos tentar pensar em 2 registros para cada entidade para checar o preenchiment
 
 A entrega deve ser realizada em um repositório do Github com um print do modelo proposto e um arquivo README respondendo as perguntas anteriores e apontando para os detalhes da modelagem proposta.
 
-![image](https://github.com/juanjpf/projeto-individual-m4/blob/695027a070756f4f1445463be5e7c0f99460dbc7/assets/Diagrama.jpg)
+![image](https://raw.githubusercontent.com/juanjpf/projeto-individual-m4/main/diagram.jpg)
 
 
 📌 Link do projeto no github Pages: https://juanjpf.github.io/projeto-individual-m4

@@ -98,7 +98,7 @@ CREATE TABLE IF NOT EXISTS `diagrama`.`Endereco` (
   PRIMARY KEY (`idEndereco`),
   CONSTRAINT `fk_Endereco_Matricula1`
     FOREIGN KEY (`idEndereco`)
-    REFERENCES `diagrama`.`Matricula` (`endereco`)
+    REFERENCES `diagrama`.`Matricula` (`Endereco`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

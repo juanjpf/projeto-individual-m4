@@ -72,11 +72,15 @@ CREATE TABLE IF NOT EXISTS `diagrama`.`Facilitadores` (
   `idFacilitadores` INT NOT NULL AUTO_INCREMENT,
   `Nome` VARCHAR(255) NULL,
   `Curso` VARCHAR(255) NULL,
-  PRIMARY KEY (`idFacilitadores`, `Curso`),
-  INDEX `fk_Facilitadores_Turmas1_idx` (`Curso` ASC) VISIBLE,
+  PRIMARY KEY (`idFacilitadores`),
   CONSTRAINT `fk_Facilitadores_Turmas1`
-    FOREIGN KEY (`Curso`)
+    FOREIGN KEY (`idFacilitadores`)
     REFERENCES `diagrama`.`Turmas` (`idTurmas`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Facilitadores_Cursos1`
+    FOREIGN KEY (`idFacilitadores`)
+    REFERENCES `diagrama`.`Cursos` (`idCursos`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

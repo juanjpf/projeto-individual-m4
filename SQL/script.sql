@@ -16,7 +16,7 @@ USE `diagrama` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `diagrama`.`Cursos` (
   `idCursos` INT NOT NULL AUTO_INCREMENT,
-  `Nome_Curso` VARCHAR(45) NULL,
+  `Nome_Curso` VARCHAR(255) NULL,
   `Turno` VARCHAR(255) NULL,
   `Inicio` int,
   `Termino` int,
